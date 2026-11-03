@@ -1,0 +1,28 @@
+[
+  {
+    "content": "先看看工作区里有什么。",
+    "toolCalls": [
+      {
+        "id": "call_demo_1",
+        "name": "list_files",
+        "arguments": {}
+      }
+    ]
+  },
+  {
+    "content": "再看一下这个算式。",
+    "toolCalls": [
+      {
+        "id": "call_demo_2",
+        "name": "calc",
+        "arguments": {
+          "expression": "(128 + 64) * 3 - 72 / 4"
+        }
+      }
+    ]
+  },
+  {
+    "content": "工作区目录已经列出来了；算式 (128 + 64) * 3 - 72 / 4 的结果是 558。",
+    "toolCalls": []
+  }
+]
